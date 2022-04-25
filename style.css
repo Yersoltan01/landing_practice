@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 100px;
+    background-color: #3d3b2c;
+}
+
+.right .links {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+a:hover {
+    color: white;
+    
+  }
+
+.logo img{
+    width: 50px;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    background-color: #3d3b2c;
+    flex-wrap: wrap;
+    padding: 50px 100px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.hero_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    text-align: center;
+}
+
+.hero_right img{
+    width: 450px;
+}
+
+.hero_main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero_subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#really {
+    color: yellowgreen;
+}
+
+.button-37 {
+    background-color: yellowgreen;
+    border: 1px solid yellowgreen;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 120px;
+}
+
+.button-37:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+}
+
+.button-37 a {
+    padding: 12px;
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}
+
+@font-face {
+    font-family: 'akzidenz-grotesk_bqmedium';
+    src: url('fonts/akzidenzgrotesk-medium-webfont.woff2') format('woff2'),
+         url('fonts/akzidenzgrotesk-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
