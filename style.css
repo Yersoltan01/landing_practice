@@ -59,6 +59,7 @@ a:hover {
 }
 
 .hero_right img{
+    box-shadow: rgba(0, 0, 0, .15) 0 14px 14px 0;
     width: 450px;
 }
 
