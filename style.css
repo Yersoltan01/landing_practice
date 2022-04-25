@@ -121,13 +121,14 @@ a:hover {
 .random {
     font-size: 24px;
     margin: 20px 0;
-    
+    text-align: center;
 }
 
 .species {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: space-around;
 }
 
 .kind {
