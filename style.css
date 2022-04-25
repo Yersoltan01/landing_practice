@@ -219,6 +219,21 @@ blockquote p {
     justify-content: center;
     align-items: center;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #3d3b2c;
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.footer a {
+    margin-left: 5px;
+}
+
 @media (min-width: 768px) {
   .button-37 {
     padding: 10px 30px;
